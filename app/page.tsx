@@ -17,10 +17,10 @@ export default function PortFolio(){
       <h1 className="w-2/4 mx-auto text-3xl font-semibold text-center mb-8">Projects</h1>
 
       <div className="space-y-4 text-center">
-        {/* Todo App Link */}
+        
         <div>
           <a 
-            href="https://to-do-app-next-js-seven.vercel.app/"  // Replace with your actual link
+            href="https://to-do-app-next-js-seven.vercel.app/" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl text-blue-500 hover:underline"
@@ -29,10 +29,9 @@ export default function PortFolio(){
           </a>
         </div>
 
-        {/* Positivious Link */}
         <div>
           <a 
-            href="https://ahmed56-16.github.io/Mini-Hackathon-HTML-CSS-/"  // Replace with your actual link
+            href="https://ahmed56-16.github.io/Mini-Hackathon-HTML-CSS-/"  
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl text-blue-500 hover:underline"
@@ -41,10 +40,9 @@ export default function PortFolio(){
           </a>
         </div>
 
-        {/* Guess My Number Link */}
         <div>
           <a 
-            href="https://example.com/guess-my-number"  // Replace with your actual link
+            href="https://example.com/guess-my-number" 
             target="_blank"
             rel="noopener noreferrer"
             className="text-xl text-blue-500 hover:underline"
@@ -57,48 +55,45 @@ export default function PortFolio(){
       <div className="bg-[#38383878] text-white mb-14 mt-14 pt-14 pb-14">
       <h1 className="w-2/4 mx-auto text-3xl font-semibold text-center mb-8">Skills</h1>
 
-      {/* HTML Progress Bar */}
       <div className="mb-4 px-4">
         <span className="text-sm text-gray-300">HTML</span>
         <div className="h-2 bg-gray-700 rounded-full">
           <div
             className="h-2 bg-blue-600 rounded-full"
-            style={{ width: '80%' }}  // Static value for HTML skill (80%)
+            style={{ width: '80%' }}  
             aria-label="HTML Progress"
             role="progressbar"
-            aria-valuenow={80}  // Static value
+            aria-valuenow={80} 
             aria-valuemin={0}
             aria-valuemax={100}
           ></div>
         </div>
       </div>
 
-      {/* CSS Progress Bar */}
       <div className="mb-4 px-4">
         <span className="text-sm text-gray-300">CSS</span>
         <div className="h-2 bg-gray-700 rounded-full">
           <div
             className="h-2 bg-green-600 rounded-full"
-            style={{ width: '60%' }}  // Static value for CSS skill (60%)
+            style={{ width: '60%' }}  
             aria-label="CSS Progress"
             role="progressbar"
-            aria-valuenow={60}  // Static value
+            aria-valuenow={60} 
             aria-valuemin={0}
             aria-valuemax={100}
           ></div>
         </div>
       </div>
 
-      {/* JavaScript Progress Bar */}
       <div className="mb-4 px-4">
         <span className="text-sm text-gray-300">JavaScript</span>
         <div className="h-2 bg-gray-700 rounded-full">
           <div
             className="h-2 bg-yellow-600 rounded-full"
-            style={{ width: '90%' }}  // Static value for JavaScript skill (90%)
+            style={{ width: '90%' }}  
             aria-label="JavaScript Progress"
             role="progressbar"
-            aria-valuenow={90}  // Static value
+            aria-valuenow={90} 
             aria-valuemin={0}
             aria-valuemax={100}
           ></div>
